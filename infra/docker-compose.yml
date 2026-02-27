@@ -1,0 +1,47 @@
+services:
+  db:
+    image: postgis/postgis:16-3.4
+    environment:
+      POSTGRES_DB: expatlife
+      POSTGRES_USER: expatlife
+      POSTGRES_PASSWORD: expatlife
+    ports:
+      - "5432:5432"
+    volumes:
+      - expatlife_db:/var/lib/postgresql/data
+
+  api:
+    build: ../expatlife-api
+    environment:
+      DATABASE_URL: postgresql+psycopg://expatlife:expatlife@db:5432/expatlife
+      CORS_ORIGINS: "*"
+    depends_on:
+      - db
+    ports:
+      - "8000:8000"
+
+  strapi:
+    image: strapi/strapi:4
+    environment:
+      DATABASE_CLIENT: postgres
+      DATABASE_HOST: db
+      DATABASE_PORT: 5432
+      DATABASE_NAME: expatlife
+      DATABASE_USERNAME: expatlife
+      DATABASE_PASSWORD: expatlife
+      NODE_ENV: development
+      APP_KEYS: "devKey1,devKey2"
+      API_TOKEN_SALT: "devTokenSalt"
+      ADMIN_JWT_SECRET: "devAdminJwt"
+      JWT_SECRET: "devJwtSecret"
+    volumes:
+      - ../expatlife-cms:/srv/app
+    working_dir: /srv/app
+    command: sh -c "if [ ! -f package.json ]; then npx create-strapi-app@latest . --quickstart --no-run; fi && npm run develop"
+    depends_on:
+      - db
+    ports:
+      - "1337:1337"
+
+volumes:
+  expatlife_db:
