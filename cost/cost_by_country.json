@@ -1,0 +1,27 @@
+{
+  "PT": {
+    "sourceName": "Starter dataset (replace with real source later)",
+    "sourceUrl": "https://example.com",
+    "areas": [
+      { "area": "Lisbon (central)", "baseRent": 1200, "baseUtilities": 120, "baseInternet": 35, "baseGroceries": 220, "note": "Starter estimate" },
+      { "area": "Porto (central)", "baseRent": 950, "baseUtilities": 110, "baseInternet": 35, "baseGroceries": 200 },
+      { "area": "Algarve", "baseRent": 900, "baseUtilities": 120, "baseInternet": 35, "baseGroceries": 200 }
+    ]
+  },
+  "MT": {
+    "sourceName": "Starter dataset (replace with real source later)",
+    "sourceUrl": "https://example.com",
+    "areas": [
+      { "area": "Sliema / St Julian’s", "baseRent": 1400, "baseUtilities": 140, "baseInternet": 35, "baseGroceries": 240, "note": "Starter estimate" },
+      { "area": "Valletta", "baseRent": 1500, "baseUtilities": 140, "baseInternet": 35, "baseGroceries": 240 }
+    ]
+  },
+  "ZA": {
+    "sourceName": "Starter dataset (replace with real source later)",
+    "sourceUrl": "https://example.com",
+    "areas": [
+      { "area": "Cape Town (City Bowl)", "baseRent": 900, "baseUtilities": 110, "baseInternet": 40, "baseGroceries": 220, "note": "Starter estimate" },
+      { "area": "Johannesburg (Sandton)", "baseRent": 850, "baseUtilities": 110, "baseInternet": 40, "baseGroceries": 210 }
+    ]
+  }
+}
