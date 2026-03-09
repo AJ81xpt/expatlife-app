@@ -1,27 +1,376 @@
 {
-  "PT": {
-    "sourceName": "Starter dataset (replace with real source later)",
-    "sourceUrl": "https://example.com",
+  "ZA": {
+    "sourceName": "Starter estimate dataset",
+    "sourceUrl": "https://www.numbeo.com/cost-of-living/",
+    "currency": "ZAR",
     "areas": [
-      { "area": "Lisbon (central)", "baseRent": 1200, "baseUtilities": 120, "baseInternet": 35, "baseGroceries": 220, "note": "Starter estimate" },
-      { "area": "Porto (central)", "baseRent": 950, "baseUtilities": 110, "baseInternet": 35, "baseGroceries": 200 },
-      { "area": "Algarve", "baseRent": 900, "baseUtilities": 120, "baseInternet": 35, "baseGroceries": 200 }
+      {
+        "area": "Cape Town",
+        "baseRent": 14500,
+        "baseUtilities": 1800,
+        "baseInternet": 850,
+        "baseGroceries": 3200,
+        "baseTransport": 1200,
+        "note": "Popular expat city; central average."
+      },
+      {
+        "area": "Johannesburg",
+        "baseRent": 12500,
+        "baseUtilities": 1700,
+        "baseInternet": 850,
+        "baseGroceries": 3000,
+        "baseTransport": 1300,
+        "note": "Big-city average for expat-friendly areas."
+      },
+      {
+        "area": "Durban",
+        "baseRent": 10500,
+        "baseUtilities": 1600,
+        "baseInternet": 800,
+        "baseGroceries": 2900,
+        "baseTransport": 1100,
+        "note": "Lower than Cape Town and Johannesburg on average."
+      }
+    ]
+  },
+  "PT": {
+    "sourceName": "Starter estimate dataset",
+    "sourceUrl": "https://www.numbeo.com/cost-of-living/",
+    "currency": "EUR",
+    "areas": [
+      {
+        "area": "Lisbon",
+        "baseRent": 1350,
+        "baseUtilities": 140,
+        "baseInternet": 40,
+        "baseGroceries": 260,
+        "baseTransport": 45,
+        "note": "Capital city; central expat average."
+      },
+      {
+        "area": "Porto",
+        "baseRent": 1050,
+        "baseUtilities": 130,
+        "baseInternet": 38,
+        "baseGroceries": 240,
+        "baseTransport": 40,
+        "note": "Popular alternative to Lisbon."
+      },
+      {
+        "area": "Algarve",
+        "baseRent": 1100,
+        "baseUtilities": 135,
+        "baseInternet": 38,
+        "baseGroceries": 245,
+        "baseTransport": 50,
+        "note": "Coastal expat region average."
+      }
     ]
   },
   "MT": {
-    "sourceName": "Starter dataset (replace with real source later)",
-    "sourceUrl": "https://example.com",
+    "sourceName": "Starter estimate dataset",
+    "sourceUrl": "https://www.numbeo.com/cost-of-living/",
+    "currency": "EUR",
     "areas": [
-      { "area": "Sliema / St Julian’s", "baseRent": 1400, "baseUtilities": 140, "baseInternet": 35, "baseGroceries": 240, "note": "Starter estimate" },
-      { "area": "Valletta", "baseRent": 1500, "baseUtilities": 140, "baseInternet": 35, "baseGroceries": 240 }
+      {
+        "area": "Sliema",
+        "baseRent": 1250,
+        "baseUtilities": 120,
+        "baseInternet": 35,
+        "baseGroceries": 260,
+        "baseTransport": 35,
+        "note": "Popular expat/coastal area."
+      },
+      {
+        "area": "St Julian's",
+        "baseRent": 1300,
+        "baseUtilities": 125,
+        "baseInternet": 35,
+        "baseGroceries": 265,
+        "baseTransport": 35,
+        "note": "High-demand area with nightlife and amenities."
+      },
+      {
+        "area": "Gozo",
+        "baseRent": 900,
+        "baseUtilities": 110,
+        "baseInternet": 34,
+        "baseGroceries": 240,
+        "baseTransport": 30,
+        "note": "Usually more affordable and quieter."
+      }
     ]
   },
-  "ZA": {
-    "sourceName": "Starter dataset (replace with real source later)",
-    "sourceUrl": "https://example.com",
+  "IT": {
+    "sourceName": "Starter estimate dataset",
+    "sourceUrl": "https://www.numbeo.com/cost-of-living/",
+    "currency": "EUR",
     "areas": [
-      { "area": "Cape Town (City Bowl)", "baseRent": 900, "baseUtilities": 110, "baseInternet": 40, "baseGroceries": 220, "note": "Starter estimate" },
-      { "area": "Johannesburg (Sandton)", "baseRent": 850, "baseUtilities": 110, "baseInternet": 40, "baseGroceries": 210 }
+      {
+        "area": "Rome",
+        "baseRent": 1400,
+        "baseUtilities": 170,
+        "baseInternet": 30,
+        "baseGroceries": 300,
+        "baseTransport": 45,
+        "note": "Capital city average."
+      },
+      {
+        "area": "Milan",
+        "baseRent": 1550,
+        "baseUtilities": 180,
+        "baseInternet": 30,
+        "baseGroceries": 310,
+        "baseTransport": 50,
+        "note": "Typically the most expensive major city."
+      },
+      {
+        "area": "Florence",
+        "baseRent": 1200,
+        "baseUtilities": 160,
+        "baseInternet": 29,
+        "baseGroceries": 285,
+        "baseTransport": 40,
+        "note": "Tourist-heavy but below Milan."
+      }
+    ]
+  },
+  "ES": {
+    "sourceName": "Starter estimate dataset",
+    "sourceUrl": "https://www.numbeo.com/cost-of-living/",
+    "currency": "EUR",
+    "areas": [
+      {
+        "area": "Madrid",
+        "baseRent": 1350,
+        "baseUtilities": 140,
+        "baseInternet": 35,
+        "baseGroceries": 280,
+        "baseTransport": 45,
+        "note": "Capital city average."
+      },
+      {
+        "area": "Barcelona",
+        "baseRent": 1450,
+        "baseUtilities": 145,
+        "baseInternet": 35,
+        "baseGroceries": 285,
+        "baseTransport": 45,
+        "note": "High-demand coastal city."
+      },
+      {
+        "area": "Valencia",
+        "baseRent": 1000,
+        "baseUtilities": 130,
+        "baseInternet": 33,
+        "baseGroceries": 250,
+        "baseTransport": 40,
+        "note": "Popular expat city with lower costs."
+      }
+    ]
+  },
+  "GR": {
+    "sourceName": "Starter estimate dataset",
+    "sourceUrl": "https://www.numbeo.com/cost-of-living/",
+    "currency": "EUR",
+    "areas": [
+      {
+        "area": "Athens",
+        "baseRent": 900,
+        "baseUtilities": 150,
+        "baseInternet": 30,
+        "baseGroceries": 250,
+        "baseTransport": 35,
+        "note": "Capital city average."
+      },
+      {
+        "area": "Thessaloniki",
+        "baseRent": 750,
+        "baseUtilities": 140,
+        "baseInternet": 30,
+        "baseGroceries": 235,
+        "baseTransport": 30,
+        "note": "Usually more affordable than Athens."
+      },
+      {
+        "area": "Crete",
+        "baseRent": 800,
+        "baseUtilities": 145,
+        "baseInternet": 30,
+        "baseGroceries": 240,
+        "baseTransport": 35,
+        "note": "Island average in popular long-stay areas."
+      }
+    ]
+  },
+  "PA": {
+    "sourceName": "Starter estimate dataset",
+    "sourceUrl": "https://www.numbeo.com/cost-of-living/",
+    "currency": "USD",
+    "areas": [
+      {
+        "area": "Panama City",
+        "baseRent": 1250,
+        "baseUtilities": 110,
+        "baseInternet": 45,
+        "baseGroceries": 320,
+        "baseTransport": 50,
+        "note": "Capital city average."
+      },
+      {
+        "area": "Boquete",
+        "baseRent": 850,
+        "baseUtilities": 95,
+        "baseInternet": 40,
+        "baseGroceries": 280,
+        "baseTransport": 40,
+        "note": "Popular expat mountain town."
+      },
+      {
+        "area": "Coronado",
+        "baseRent": 950,
+        "baseUtilities": 100,
+        "baseInternet": 42,
+        "baseGroceries": 290,
+        "baseTransport": 45,
+        "note": "Beach-area expat average."
+      }
+    ]
+  },
+  "MX": {
+    "sourceName": "Starter estimate dataset",
+    "sourceUrl": "https://www.numbeo.com/cost-of-living/",
+    "currency": "MXN",
+    "areas": [
+      {
+        "area": "Mexico City",
+        "baseRent": 18000,
+        "baseUtilities": 1400,
+        "baseInternet": 600,
+        "baseGroceries": 4200,
+        "baseTransport": 800,
+        "note": "Capital city average."
+      },
+      {
+        "area": "Playa del Carmen",
+        "baseRent": 17000,
+        "baseUtilities": 1500,
+        "baseInternet": 650,
+        "baseGroceries": 4300,
+        "baseTransport": 700,
+        "note": "Popular expat / beach destination."
+      },
+      {
+        "area": "Merida",
+        "baseRent": 12500,
+        "baseUtilities": 1300,
+        "baseInternet": 600,
+        "baseGroceries": 3700,
+        "baseTransport": 700,
+        "note": "Often more affordable and popular with expats."
+      }
+    ]
+  },
+  "AE": {
+    "sourceName": "Starter estimate dataset",
+    "sourceUrl": "https://www.numbeo.com/cost-of-living/",
+    "currency": "AED",
+    "areas": [
+      {
+        "area": "Dubai",
+        "baseRent": 7000,
+        "baseUtilities": 700,
+        "baseInternet": 350,
+        "baseGroceries": 1400,
+        "baseTransport": 350,
+        "note": "Major expat hub; high-demand average."
+      },
+      {
+        "area": "Abu Dhabi",
+        "baseRent": 6500,
+        "baseUtilities": 680,
+        "baseInternet": 350,
+        "baseGroceries": 1350,
+        "baseTransport": 320,
+        "note": "Capital city average."
+      },
+      {
+        "area": "Sharjah",
+        "baseRent": 4500,
+        "baseUtilities": 600,
+        "baseInternet": 330,
+        "baseGroceries": 1250,
+        "baseTransport": 300,
+        "note": "Often cheaper than Dubai."
+      }
+    ]
+  },
+  "GB": {
+    "sourceName": "Starter estimate dataset",
+    "sourceUrl": "https://www.numbeo.com/cost-of-living/",
+    "currency": "GBP",
+    "areas": [
+      {
+        "area": "London",
+        "baseRent": 1900,
+        "baseUtilities": 220,
+        "baseInternet": 35,
+        "baseGroceries": 320,
+        "baseTransport": 85,
+        "note": "Highest-cost major UK city."
+      },
+      {
+        "area": "Manchester",
+        "baseRent": 1100,
+        "baseUtilities": 190,
+        "baseInternet": 32,
+        "baseGroceries": 270,
+        "baseTransport": 70,
+        "note": "Large city with lower cost than London."
+      },
+      {
+        "area": "Edinburgh",
+        "baseRent": 1200,
+        "baseUtilities": 200,
+        "baseInternet": 32,
+        "baseGroceries": 280,
+        "baseTransport": 65,
+        "note": "Popular and relatively high-demand city."
+      }
+    ]
+  },
+  "US": {
+    "sourceName": "Starter estimate dataset",
+    "sourceUrl": "https://www.numbeo.com/cost-of-living/",
+    "currency": "USD",
+    "areas": [
+      {
+        "area": "Austin",
+        "baseRent": 1650,
+        "baseUtilities": 180,
+        "baseInternet": 70,
+        "baseGroceries": 350,
+        "baseTransport": 90,
+        "note": "Popular relocation city."
+      },
+      {
+        "area": "Miami",
+        "baseRent": 2100,
+        "baseUtilities": 190,
+        "baseInternet": 70,
+        "baseGroceries": 380,
+        "baseTransport": 95,
+        "note": "High-demand coastal city."
+      },
+      {
+        "area": "Chicago",
+        "baseRent": 1750,
+        "baseUtilities": 200,
+        "baseInternet": 70,
+        "baseGroceries": 360,
+        "baseTransport": 85,
+        "note": "Big-city average."
+      }
     ]
   }
 }
