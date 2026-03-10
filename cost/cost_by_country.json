@@ -541,6 +541,533 @@
         "baseTransport": 20,
         "note": "Industrial coastal city with moderate costs."
       }
+      ,
+  "NL": {
+    "sourceName": "Starter estimate dataset",
+    "sourceUrl": "https://www.numbeo.com/cost-of-living/",
+    "currency": "EUR",
+    "areas": [
+      {
+        "area": "Amsterdam",
+        "baseRent": 1900,
+        "baseUtilities": 190,
+        "baseInternet": 40,
+        "baseGroceries": 330,
+        "baseTransport": 55,
+        "note": "Highest-demand Dutch city."
+      },
+      {
+        "area": "Rotterdam",
+        "baseRent": 1450,
+        "baseUtilities": 175,
+        "baseInternet": 40,
+        "baseGroceries": 300,
+        "baseTransport": 50,
+        "note": "Big-city alternative to Amsterdam."
+      },
+      {
+        "area": "Eindhoven",
+        "baseRent": 1300,
+        "baseUtilities": 170,
+        "baseInternet": 38,
+        "baseGroceries": 290,
+        "baseTransport": 45,
+        "note": "Popular tech-friendly city."
+      }
+    ]
+  },
+  "GE": {
+    "sourceName": "Starter estimate dataset",
+    "sourceUrl": "https://www.numbeo.com/cost-of-living/",
+    "currency": "GEL",
+    "areas": [
+      {
+        "area": "Tbilisi",
+        "baseRent": 1700,
+        "baseUtilities": 220,
+        "baseInternet": 60,
+        "baseGroceries": 450,
+        "baseTransport": 60,
+        "note": "Main expat and remote-work hub."
+      },
+      {
+        "area": "Batumi",
+        "baseRent": 1500,
+        "baseUtilities": 210,
+        "baseInternet": 55,
+        "baseGroceries": 420,
+        "baseTransport": 55,
+        "note": "Coastal city popular with nomads."
+      },
+      {
+        "area": "Kutaisi",
+        "baseRent": 1100,
+        "baseUtilities": 190,
+        "baseInternet": 50,
+        "baseGroceries": 380,
+        "baseTransport": 45,
+        "note": "Lower-cost city option."
+      }
+    ]
+  },
+  "AU": {
+    "sourceName": "Starter estimate dataset",
+    "sourceUrl": "https://www.numbeo.com/cost-of-living/",
+    "currency": "AUD",
+    "areas": [
+      {
+        "area": "Sydney",
+        "baseRent": 2600,
+        "baseUtilities": 220,
+        "baseInternet": 80,
+        "baseGroceries": 520,
+        "baseTransport": 170,
+        "note": "Highest-demand major city."
+      },
+      {
+        "area": "Melbourne",
+        "baseRent": 2200,
+        "baseUtilities": 210,
+        "baseInternet": 80,
+        "baseGroceries": 500,
+        "baseTransport": 160,
+        "note": "Strong lifestyle and city culture."
+      },
+      {
+        "area": "Brisbane",
+        "baseRent": 1900,
+        "baseUtilities": 200,
+        "baseInternet": 78,
+        "baseGroceries": 480,
+        "baseTransport": 150,
+        "note": "Warmer and often slightly lower-cost."
+      }
+    ]
+  },
+  "NZ": {
+    "sourceName": "Starter estimate dataset",
+    "sourceUrl": "https://www.numbeo.com/cost-of-living/",
+    "currency": "NZD",
+    "areas": [
+      {
+        "area": "Auckland",
+        "baseRent": 2450,
+        "baseUtilities": 210,
+        "baseInternet": 80,
+        "baseGroceries": 520,
+        "baseTransport": 170,
+        "note": "Most expensive major city."
+      },
+      {
+        "area": "Wellington",
+        "baseRent": 2100,
+        "baseUtilities": 205,
+        "baseInternet": 78,
+        "baseGroceries": 500,
+        "baseTransport": 155,
+        "note": "Capital city average."
+      },
+      {
+        "area": "Christchurch",
+        "baseRent": 1850,
+        "baseUtilities": 195,
+        "baseInternet": 75,
+        "baseGroceries": 470,
+        "baseTransport": 145,
+        "note": "Usually below Auckland and Wellington."
+      }
+    ]
+  },
+  "ID": {
+    "sourceName": "Starter estimate dataset",
+    "sourceUrl": "https://www.numbeo.com/cost-of-living/",
+    "currency": "IDR",
+    "areas": [
+      {
+        "area": "Bali",
+        "baseRent": 8500000,
+        "baseUtilities": 1200000,
+        "baseInternet": 450000,
+        "baseGroceries": 2500000,
+        "baseTransport": 700000,
+        "note": "Top expat and digital nomad area."
+      },
+      {
+        "area": "Jakarta",
+        "baseRent": 9000000,
+        "baseUtilities": 1300000,
+        "baseInternet": 500000,
+        "baseGroceries": 2700000,
+        "baseTransport": 800000,
+        "note": "Large-city average."
+      },
+      {
+        "area": "Yogyakarta",
+        "baseRent": 5000000,
+        "baseUtilities": 1000000,
+        "baseInternet": 400000,
+        "baseGroceries": 2100000,
+        "baseTransport": 600000,
+        "note": "Lower-cost cultural city."
+      }
+    ]
+  },
+  "TH": {
+    "sourceName": "Starter estimate dataset",
+    "sourceUrl": "https://www.numbeo.com/cost-of-living/",
+    "currency": "THB",
+    "areas": [
+      {
+        "area": "Bangkok",
+        "baseRent": 18000,
+        "baseUtilities": 2500,
+        "baseInternet": 700,
+        "baseGroceries": 6500,
+        "baseTransport": 1800,
+        "note": "Main city and expat hub."
+      },
+      {
+        "area": "Chiang Mai",
+        "baseRent": 12000,
+        "baseUtilities": 2200,
+        "baseInternet": 650,
+        "baseGroceries": 5500,
+        "baseTransport": 1400,
+        "note": "Popular digital nomad city."
+      },
+      {
+        "area": "Phuket",
+        "baseRent": 16000,
+        "baseUtilities": 2400,
+        "baseInternet": 700,
+        "baseGroceries": 6200,
+        "baseTransport": 1700,
+        "note": "Coastal lifestyle destination."
+      }
+    ]
+  },
+  "VN": {
+    "sourceName": "Starter estimate dataset",
+    "sourceUrl": "https://www.numbeo.com/cost-of-living/",
+    "currency": "VND",
+    "areas": [
+      {
+        "area": "Ho Chi Minh City",
+        "baseRent": 12000000,
+        "baseUtilities": 1800000,
+        "baseInternet": 300000,
+        "baseGroceries": 5000000,
+        "baseTransport": 1200000,
+        "note": "Main business and expat city."
+      },
+      {
+        "area": "Hanoi",
+        "baseRent": 11000000,
+        "baseUtilities": 1700000,
+        "baseInternet": 300000,
+        "baseGroceries": 4800000,
+        "baseTransport": 1100000,
+        "note": "Capital city average."
+      },
+      {
+        "area": "Da Nang",
+        "baseRent": 8500000,
+        "baseUtilities": 1500000,
+        "baseInternet": 280000,
+        "baseGroceries": 4300000,
+        "baseTransport": 1000000,
+        "note": "Popular coastal long-stay option."
+      }
+    ]
+  },
+  "CA": {
+    "sourceName": "Starter estimate dataset",
+    "sourceUrl": "https://www.numbeo.com/cost-of-living/",
+    "currency": "CAD",
+    "areas": [
+      {
+        "area": "Toronto",
+        "baseRent": 2500,
+        "baseUtilities": 210,
+        "baseInternet": 75,
+        "baseGroceries": 480,
+        "baseTransport": 160,
+        "note": "Major high-demand city."
+      },
+      {
+        "area": "Vancouver",
+        "baseRent": 2700,
+        "baseUtilities": 215,
+        "baseInternet": 75,
+        "baseGroceries": 500,
+        "baseTransport": 165,
+        "note": "Often the most expensive major city."
+      },
+      {
+        "area": "Montreal",
+        "baseRent": 1700,
+        "baseUtilities": 190,
+        "baseInternet": 70,
+        "baseGroceries": 430,
+        "baseTransport": 125,
+        "note": "Often more affordable than Toronto/Vancouver."
+      }
+    ]
+  },
+  "CR": {
+    "sourceName": "Starter estimate dataset",
+    "sourceUrl": "https://www.numbeo.com/cost-of-living/",
+    "currency": "CRC",
+    "areas": [
+      {
+        "area": "San Jose",
+        "baseRent": 450000,
+        "baseUtilities": 50000,
+        "baseInternet": 18000,
+        "baseGroceries": 180000,
+        "baseTransport": 35000,
+        "note": "Capital city average."
+      },
+      {
+        "area": "Tamarindo",
+        "baseRent": 600000,
+        "baseUtilities": 55000,
+        "baseInternet": 18000,
+        "baseGroceries": 200000,
+        "baseTransport": 40000,
+        "note": "Beach-area expat destination."
+      },
+      {
+        "area": "Atenas",
+        "baseRent": 380000,
+        "baseUtilities": 45000,
+        "baseInternet": 17000,
+        "baseGroceries": 170000,
+        "baseTransport": 30000,
+        "note": "Popular retirement area."
+      }
+    ]
+  },
+  "CO": {
+    "sourceName": "Starter estimate dataset",
+    "sourceUrl": "https://www.numbeo.com/cost-of-living/",
+    "currency": "COP",
+    "areas": [
+      {
+        "area": "Medellin",
+        "baseRent": 2500000,
+        "baseUtilities": 350000,
+        "baseInternet": 120000,
+        "baseGroceries": 900000,
+        "baseTransport": 180000,
+        "note": "Popular expat and remote-work city."
+      },
+      {
+        "area": "Bogota",
+        "baseRent": 2800000,
+        "baseUtilities": 370000,
+        "baseInternet": 125000,
+        "baseGroceries": 950000,
+        "baseTransport": 200000,
+        "note": "Capital city average."
+      },
+      {
+        "area": "Cartagena",
+        "baseRent": 3000000,
+        "baseUtilities": 380000,
+        "baseInternet": 120000,
+        "baseGroceries": 980000,
+        "baseTransport": 190000,
+        "note": "Coastal city with tourism premium."
+      }
+    ]
+  },
+  "DE": {
+    "sourceName": "Starter estimate dataset",
+    "sourceUrl": "https://www.numbeo.com/cost-of-living/",
+    "currency": "EUR",
+    "areas": [
+      {
+        "area": "Berlin",
+        "baseRent": 1400,
+        "baseUtilities": 220,
+        "baseInternet": 40,
+        "baseGroceries": 310,
+        "baseTransport": 55,
+        "note": "Capital city average."
+      },
+      {
+        "area": "Munich",
+        "baseRent": 1800,
+        "baseUtilities": 230,
+        "baseInternet": 40,
+        "baseGroceries": 330,
+        "baseTransport": 60,
+        "note": "Often one of the most expensive cities."
+      },
+      {
+        "area": "Leipzig",
+        "baseRent": 950,
+        "baseUtilities": 200,
+        "baseInternet": 38,
+        "baseGroceries": 280,
+        "baseTransport": 45,
+        "note": "Lower-cost German city option."
+      }
+    ]
+  },
+  "FR": {
+    "sourceName": "Starter estimate dataset",
+    "sourceUrl": "https://www.numbeo.com/cost-of-living/",
+    "currency": "EUR",
+    "areas": [
+      {
+        "area": "Paris",
+        "baseRent": 1900,
+        "baseUtilities": 180,
+        "baseInternet": 35,
+        "baseGroceries": 350,
+        "baseTransport": 85,
+        "note": "Highest-cost major city."
+      },
+      {
+        "area": "Lyon",
+        "baseRent": 1200,
+        "baseUtilities": 160,
+        "baseInternet": 33,
+        "baseGroceries": 300,
+        "baseTransport": 65,
+        "note": "Major city with lower cost than Paris."
+      },
+      {
+        "area": "Nice",
+        "baseRent": 1350,
+        "baseUtilities": 165,
+        "baseInternet": 33,
+        "baseGroceries": 310,
+        "baseTransport": 60,
+        "note": "Popular coastal city."
+      }
+    ]
+  },
+  "IE": {
+    "sourceName": "Starter estimate dataset",
+    "sourceUrl": "https://www.numbeo.com/cost-of-living/",
+    "currency": "EUR",
+    "areas": [
+      {
+        "area": "Dublin",
+        "baseRent": 2200,
+        "baseUtilities": 220,
+        "baseInternet": 50,
+        "baseGroceries": 340,
+        "baseTransport": 120,
+        "note": "Highest-demand city."
+      },
+      {
+        "area": "Cork",
+        "baseRent": 1600,
+        "baseUtilities": 200,
+        "baseInternet": 48,
+        "baseGroceries": 310,
+        "baseTransport": 95,
+        "note": "Second-city alternative."
+      },
+      {
+        "area": "Galway",
+        "baseRent": 1500,
+        "baseUtilities": 195,
+        "baseInternet": 48,
+        "baseGroceries": 300,
+        "baseTransport": 85,
+        "note": "Smaller but popular city."
+      }
+    ]
+  },
+  "MY": {
+    "sourceName": "Starter estimate dataset",
+    "sourceUrl": "https://www.numbeo.com/cost-of-living/",
+    "currency": "MYR",
+    "areas": [
+      {
+        "area": "Kuala Lumpur",
+        "baseRent": 2500,
+        "baseUtilities": 220,
+        "baseInternet": 120,
+        "baseGroceries": 900,
+        "baseTransport": 200,
+        "note": "Main expat and business hub."
+      },
+      {
+        "area": "Penang",
+        "baseRent": 2000,
+        "baseUtilities": 210,
+        "baseInternet": 115,
+        "baseGroceries": 850,
+        "baseTransport": 180,
+        "note": "Popular long-stay destination."
+      },
+      {
+        "area": "Johor Bahru",
+        "baseRent": 1800,
+        "baseUtilities": 200,
+        "baseInternet": 110,
+        "baseGroceries": 820,
+        "baseTransport": 170,
+        "note": "Lower-cost city near Singapore."
+      }
+    ]
+  },
+  "SG": {
+    "sourceName": "Starter estimate dataset",
+    "sourceUrl": "https://www.numbeo.com/cost-of-living/",
+    "currency": "SGD",
+    "areas": [
+      {
+        "area": "Singapore",
+        "baseRent": 3200,
+        "baseUtilities": 180,
+        "baseInternet": 50,
+        "baseGroceries": 450,
+        "baseTransport": 120,
+        "note": "City-state average."
+      }
+    ]
+  },
+  "JP": {
+    "sourceName": "Starter estimate dataset",
+    "sourceUrl": "https://www.numbeo.com/cost-of-living/",
+    "currency": "JPY",
+    "areas": [
+      {
+        "area": "Tokyo",
+        "baseRent": 165000,
+        "baseUtilities": 18000,
+        "baseInternet": 5000,
+        "baseGroceries": 45000,
+        "baseTransport": 12000,
+        "note": "Highest-demand major city."
+      },
+      {
+        "area": "Osaka",
+        "baseRent": 110000,
+        "baseUtilities": 17000,
+        "baseInternet": 5000,
+        "baseGroceries": 42000,
+        "baseTransport": 10000,
+        "note": "Major city with lower cost than Tokyo."
+      },
+      {
+        "area": "Fukuoka",
+        "baseRent": 85000,
+        "baseUtilities": 16000,
+        "baseInternet": 4800,
+        "baseGroceries": 39000,
+        "baseTransport": 9000,
+        "note": "Popular lower-cost city option."
+      }
+    ]
+  }
     ]
   }
 }
