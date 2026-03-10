@@ -370,8 +370,9 @@
         "baseGroceries": 360,
         "baseTransport": 85,
         "note": "Big-city average."
-      }, 
-      {
+      }
+    ]
+  },
   "MA": {
     "sourceName": "Starter estimate dataset",
     "sourceUrl": "https://www.numbeo.com/cost-of-living/",
@@ -540,4 +541,6 @@
         "baseTransport": 20,
         "note": "Industrial coastal city with moderate costs."
       }
+    ]
+  }
 }
