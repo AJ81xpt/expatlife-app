@@ -370,7 +370,179 @@
         "baseGroceries": 360,
         "baseTransport": 85,
         "note": "Big-city average."
+      }, 
+      {
+  "MA": {
+    "sourceName": "Starter estimate dataset",
+    "sourceUrl": "https://www.numbeo.com/cost-of-living/",
+    "currency": "MAD",
+    "areas": [
+      {
+        "area": "Casablanca",
+        "baseRent": 7500,
+        "baseUtilities": 600,
+        "baseInternet": 350,
+        "baseGroceries": 2200,
+        "baseTransport": 400,
+        "note": "Largest city and business hub."
+      },
+      {
+        "area": "Marrakech",
+        "baseRent": 6800,
+        "baseUtilities": 550,
+        "baseInternet": 350,
+        "baseGroceries": 2100,
+        "baseTransport": 350,
+        "note": "Popular expat and tourism destination."
+      },
+      {
+        "area": "Tangier",
+        "baseRent": 6200,
+        "baseUtilities": 520,
+        "baseInternet": 340,
+        "baseGroceries": 2000,
+        "baseTransport": 320,
+        "note": "Northern coastal city with growing expat appeal."
       }
+    ]
+  },
+  "MU": {
+    "sourceName": "Starter estimate dataset",
+    "sourceUrl": "https://www.numbeo.com/cost-of-living/",
+    "currency": "MUR",
+    "areas": [
+      {
+        "area": "Grand Baie",
+        "baseRent": 32000,
+        "baseUtilities": 3500,
+        "baseInternet": 1500,
+        "baseGroceries": 9000,
+        "baseTransport": 2500,
+        "note": "Popular coastal expat hub."
+      },
+      {
+        "area": "Tamarin",
+        "baseRent": 30000,
+        "baseUtilities": 3400,
+        "baseInternet": 1500,
+        "baseGroceries": 8800,
+        "baseTransport": 2400,
+        "note": "Well-known for lifestyle and beaches."
+      },
+      {
+        "area": "Port Louis",
+        "baseRent": 24000,
+        "baseUtilities": 3200,
+        "baseInternet": 1450,
+        "baseGroceries": 8200,
+        "baseTransport": 2200,
+        "note": "Capital city average."
+      }
+    ]
+  },
+  "KE": {
+    "sourceName": "Starter estimate dataset",
+    "sourceUrl": "https://www.numbeo.com/cost-of-living/",
+    "currency": "KES",
+    "areas": [
+      {
+        "area": "Nairobi",
+        "baseRent": 85000,
+        "baseUtilities": 9000,
+        "baseInternet": 3500,
+        "baseGroceries": 22000,
+        "baseTransport": 7000,
+        "note": "Major expat and business hub."
+      },
+      {
+        "area": "Mombasa",
+        "baseRent": 65000,
+        "baseUtilities": 8000,
+        "baseInternet": 3300,
+        "baseGroceries": 20000,
+        "baseTransport": 6000,
+        "note": "Coastal city with lower costs than Nairobi."
+      },
+      {
+        "area": "Naivasha",
+        "baseRent": 50000,
+        "baseUtilities": 7000,
+        "baseInternet": 3000,
+        "baseGroceries": 18000,
+        "baseTransport": 5000,
+        "note": "Smaller city, quieter long-stay option."
+      }
+    ]
+  },
+  "QA": {
+    "sourceName": "Starter estimate dataset",
+    "sourceUrl": "https://www.numbeo.com/cost-of-living/",
+    "currency": "QAR",
+    "areas": [
+      {
+        "area": "Doha",
+        "baseRent": 6500,
+        "baseUtilities": 500,
+        "baseInternet": 300,
+        "baseGroceries": 1400,
+        "baseTransport": 250,
+        "note": "Capital city and primary expat destination."
+      },
+      {
+        "area": "The Pearl",
+        "baseRent": 8500,
+        "baseUtilities": 550,
+        "baseInternet": 320,
+        "baseGroceries": 1500,
+        "baseTransport": 280,
+        "note": "Premium waterfront district."
+      },
+      {
+        "area": "Al Wakrah",
+        "baseRent": 5000,
+        "baseUtilities": 450,
+        "baseInternet": 280,
+        "baseGroceries": 1300,
+        "baseTransport": 240,
+        "note": "More affordable option outside central Doha."
+      }
+    ]
+  },
+  "OM": {
+    "sourceName": "Starter estimate dataset",
+    "sourceUrl": "https://www.numbeo.com/cost-of-living/",
+    "currency": "OMR",
+    "areas": [
+      {
+        "area": "Muscat",
+        "baseRent": 350,
+        "baseUtilities": 35,
+        "baseInternet": 25,
+        "baseGroceries": 120,
+        "baseTransport": 25,
+        "note": "Capital city average."
+      },
+      {
+        "area": "Salalah",
+        "baseRent": 250,
+        "baseUtilities": 30,
+        "baseInternet": 22,
+        "baseGroceries": 110,
+        "baseTransport": 20,
+        "note": "Lower-cost coastal city."
+      },
+      {
+        "area": "Sohar",
+        "baseRent": 220,
+        "baseUtilities": 28,
+        "baseInternet": 22,
+        "baseGroceries": 105,
+        "baseTransport": 20,
+        "note": "Industrial coastal city with moderate costs."
+      }
+    ]
+  }
+}
     ]
   }
 }
