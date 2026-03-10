@@ -372,6 +372,7 @@
         "note": "Big-city average."
       }, 
       {
+ ,
   "MA": {
     "sourceName": "Starter estimate dataset",
     "sourceUrl": "https://www.numbeo.com/cost-of-living/",
@@ -542,7 +543,3 @@
       }
     ]
   }
-}
-    ]
-  }
-}
