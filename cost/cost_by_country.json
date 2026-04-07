@@ -405,6 +405,231 @@
         "baseInternet": 75,
         "baseGroceries": 470,
         "baseTransport": 145
+      }      
+    ]
+  },
+  "GB": {
+    "sourceName": "Expatgo starter data",
+    "sourceUrl": "",
+    "currency": "GBP",
+    "areas": [
+      {
+        "area": "London",
+        "baseRent": 1800,
+        "baseUtilities": 180,
+        "baseInternet": 35,
+        "baseGroceries": 260,
+        "baseTransport": 180,
+        "note": "Highest costs in the UK. Strong jobs market but housing is expensive."
+      },
+      {
+        "area": "Manchester",
+        "baseRent": 1050,
+        "baseUtilities": 160,
+        "baseInternet": 32,
+        "baseGroceries": 220,
+        "baseTransport": 95,
+        "note": "Popular for value compared with London and good city infrastructure."
+      }
+    ]
+  },
+  "IE": {
+    "sourceName": "Expatgo starter data",
+    "sourceUrl": "",
+    "currency": "EUR",
+    "areas": [
+      {
+        "area": "Dublin",
+        "baseRent": 1750,
+        "baseUtilities": 170,
+        "baseInternet": 40,
+        "baseGroceries": 280,
+        "baseTransport": 110,
+        "note": "Very strong international jobs market but rents are high."
+      },
+      {
+        "area": "Cork",
+        "baseRent": 1250,
+        "baseUtilities": 150,
+        "baseInternet": 38,
+        "baseGroceries": 240,
+        "baseTransport": 85,
+        "note": "Smaller city with better balance between lifestyle and cost."
+      }
+    ]
+  },
+  "DE": {
+    "sourceName": "Expatgo starter data",
+    "sourceUrl": "",
+    "currency": "EUR",
+    "areas": [
+      {
+        "area": "Berlin",
+        "baseRent": 1200,
+        "baseUtilities": 180,
+        "baseInternet": 40,
+        "baseGroceries": 240,
+        "baseTransport": 70,
+        "note": "Popular with expats and remote workers, though rents have risen."
+      },
+      {
+        "area": "Munich",
+        "baseRent": 1650,
+        "baseUtilities": 190,
+        "baseInternet": 42,
+        "baseGroceries": 260,
+        "baseTransport": 75,
+        "note": "Higher salaries but among the most expensive German cities."
+      }
+    ]
+  },
+  "NL": {
+    "sourceName": "Expatgo starter data",
+    "sourceUrl": "",
+    "currency": "EUR",
+    "areas": [
+      {
+        "area": "Amsterdam",
+        "baseRent": 1700,
+        "baseUtilities": 170,
+        "baseInternet": 40,
+        "baseGroceries": 260,
+        "baseTransport": 90,
+        "note": "Very international and expat-friendly, but housing is expensive."
+      },
+      {
+        "area": "Rotterdam",
+        "baseRent": 1350,
+        "baseUtilities": 160,
+        "baseInternet": 38,
+        "baseGroceries": 240,
+        "baseTransport": 80,
+        "note": "Good value relative to Amsterdam with strong city infrastructure."
+      }
+    ]
+  },
+  "FR": {
+    "sourceName": "Expatgo starter data",
+    "sourceUrl": "",
+    "currency": "EUR",
+    "areas": [
+      {
+        "area": "Paris",
+        "baseRent": 1750,
+        "baseUtilities": 160,
+        "baseInternet": 35,
+        "baseGroceries": 280,
+        "baseTransport": 90,
+        "note": "Excellent infrastructure and lifestyle, but high housing costs."
+      },
+      {
+        "area": "Lyon",
+        "baseRent": 1150,
+        "baseUtilities": 145,
+        "baseInternet": 33,
+        "baseGroceries": 230,
+        "baseTransport": 70,
+        "note": "Popular alternative to Paris with strong quality of life."
+      }
+    ]
+  },
+  "SE": {
+    "sourceName": "Expatgo starter data",
+    "sourceUrl": "",
+    "currency": "SEK",
+    "areas": [
+      {
+        "area": "Stockholm",
+        "baseRent": 14500,
+        "baseUtilities": 1800,
+        "baseInternet": 400,
+        "baseGroceries": 3200,
+        "baseTransport": 970,
+        "note": "High quality of life, but housing and daily costs are high."
+      },
+      {
+        "area": "Gothenburg",
+        "baseRent": 11500,
+        "baseUtilities": 1700,
+        "baseInternet": 380,
+        "baseGroceries": 2900,
+        "baseTransport": 850,
+        "note": "Slightly lower-cost option than Stockholm with strong city services."
+      }
+    ]
+  },
+  "DK": {
+    "sourceName": "Expatgo starter data",
+    "sourceUrl": "",
+    "currency": "DKK",
+    "areas": [
+      {
+        "area": "Copenhagen",
+        "baseRent": 12500,
+        "baseUtilities": 1500,
+        "baseInternet": 300,
+        "baseGroceries": 2800,
+        "baseTransport": 750,
+        "note": "Very high-functioning city with high everyday costs."
+      },
+      {
+        "area": "Aarhus",
+        "baseRent": 9500,
+        "baseUtilities": 1350,
+        "baseInternet": 280,
+        "baseGroceries": 2500,
+        "baseTransport": 650,
+        "note": "Smaller but attractive option with slightly better value."
+      }
+    ]
+  },
+  "CA": {
+    "sourceName": "Expatgo starter data",
+    "sourceUrl": "",
+    "currency": "CAD",
+    "areas": [
+      {
+        "area": "Toronto",
+        "baseRent": 2400,
+        "baseUtilities": 180,
+        "baseInternet": 70,
+        "baseGroceries": 420,
+        "baseTransport": 156,
+        "note": "Big job market and strong expat appeal, but expensive housing."
+      },
+      {
+        "area": "Montreal",
+        "baseRent": 1600,
+        "baseUtilities": 160,
+        "baseInternet": 65,
+        "baseGroceries": 360,
+        "baseTransport": 100,
+        "note": "Often better value than Toronto or Vancouver."
+      }
+    ]
+  },
+  "PA": {
+    "sourceName": "Expatgo starter data",
+    "sourceUrl": "",
+    "currency": "USD",
+    "areas": [
+      {
+        "area": "Panama City",
+        "baseRent": 1100,
+        "baseUtilities": 110,
+        "baseInternet": 40,
+        "baseGroceries": 260,
+        "baseTransport": 45,
+        "note": "Main expat hub with the strongest services and infrastructure."
+      },
+      {
+        "area": "Boquete",
+        "baseRent": 800,
+        "baseUtilities": 90,
+        "baseInternet": 35,
+        "baseGroceries": 220,
+        "baseTransport": 35,
+        "note": "Popular with retirees and lifestyle-focused expats."
       }
     ]
   }
